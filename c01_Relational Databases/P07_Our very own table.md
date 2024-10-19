@@ -1,6 +1,3 @@
----
-
-```markdown
 # Ejercicio: Explorando la Tabla `books` - Explicación de `SELECT` y `FROM`
 
 ---
