@@ -26,3 +26,30 @@ Observa la base de datos que se presenta a continuación. ¿Cuál de las siguien
 
 ### Explicación:
 La base de datos relacional presentada contiene tres tablas: **employees**, **job_levels**, y **departments**. Las tablas en una base de datos relacional están conectadas por identificadores comunes (como **dept_id** y **job_level_id**) que permiten crear relaciones entre los datos, facilitando las consultas y el análisis.
+
+# Tablas de la base de datos de empleados
+
+## Tabla: employees
+| id    | name    | dept_id | job_level_id |
+|-------|---------|---------|--------------|
+| 54378 | Darius  | 1       | 3            |
+| 94722 | Raven   | 2       | 3            |
+| 45783 | Eduardo | 2       | 1            |
+
+---
+
+## Tabla: job_levels
+| id  | name        | min_salary |
+|-----|-------------|------------|
+| 1   | Executive   | 100000     |
+| 2   | Manager     | 70000      |
+| 3   | Contributor | 35000      |
+
+---
+
+## Tabla: departments
+| id  | dept_name   | dept_head |
+|-----|-------------|-----------|
+| 1   | Design      | Jack      |
+| 2   | Content     | Eduardo   |
+| 3   | Engineering | Vanessa   |
