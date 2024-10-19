@@ -27,7 +27,11 @@ Observa la base de datos que se presenta a continuación. ¿Cuál de las siguien
 ### Explicación:
 La base de datos relacional presentada contiene tres tablas: **employees**, **job_levels**, y **departments**. Las tablas en una base de datos relacional están conectadas por identificadores comunes (como **dept_id** y **job_level_id**) que permiten crear relaciones entre los datos, facilitando las consultas y el análisis.
 
-# Tablas de la base de datos de empleados
+# Base de datos relacional
+
+La base de datos contiene tres tablas: `employees`, `job_levels`, y `departments`. A continuación se muestran las tablas junto con sus relaciones.
+
+---
 
 ## Tabla: employees
 | id    | name    | dept_id | job_level_id |
@@ -36,20 +40,37 @@ La base de datos relacional presentada contiene tres tablas: **employees**, **jo
 | 94722 | Raven   | 2       | 3            |
 | 45783 | Eduardo | 2       | 1            |
 
+### Relación:
+- `dept_id` hace referencia a la columna `id` en la tabla **departments**.
+- `job_level_id` hace referencia a la columna `id` en la tabla **job_levels**.
+
 ---
 
 ## Tabla: job_levels
-| id  | name        | min_salary |
-|-----|-------------|------------|
-| 1   | Executive   | 100000     |
-| 2   | Manager     | 70000      |
-| 3   | Contributor | 35000      |
+| id  | name       | min_salary |
+|-----|------------|------------|
+| 1   | Executive  | 100000     |
+| 2   | Manager    | 70000      |
+| 3   | Contributor| 35000      |
+
+### Relación:
+- Esta tabla define los niveles de trabajo, y su `id` es utilizado por la tabla **employees**.
 
 ---
 
 ## Tabla: departments
-| id  | dept_name   | dept_head |
-|-----|-------------|-----------|
-| 1   | Design      | Jack      |
-| 2   | Content     | Eduardo   |
-| 3   | Engineering | Vanessa   |
+| id  | dept_name  | dept_head |
+|-----|------------|-----------|
+| 1   | Design     | Jack      |
+| 2   | Content    | Eduardo   |
+| 3   | Engineering| Vanessa   |
+
+### Relación:
+- Esta tabla define los departamentos, y su `id` es utilizado por la tabla **employees**.
+
+---
+
+## Diagrama de relaciones (descripción)
+
+1. La columna `dept_id` en la tabla **employees** se relaciona con la columna `id` en la tabla **departments**.
+2. La columna `job_level_id` en la tabla **employees** se relaciona con la columna `id` en la tabla **job_levels**.
