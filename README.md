@@ -27,7 +27,7 @@ Bienvenido a mi repositorio de **Introduction to SQL**, un curso que realicé en
 - **🛠️ Optimizaciones básicas**: Entendí la importancia de escribir consultas eficientes y aprendí prácticas recomendadas para mejorar el rendimiento.
 
 
-### ✔️ Habilidades en SQL:
+## ✔️ Habilidades en SQL:
 
 - 📝 **Consultas básicas**: Uso de `SELECT`, `FROM`, y `WHERE` para extraer datos de tablas.
 - 🔍 **Filtrado de datos**: Aplicación de operadores de comparación (`=`, `>`, `<`) y operadores lógicos (`AND`, `OR`, `NOT`) para filtrar resultados.
