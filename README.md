@@ -14,10 +14,6 @@ Bienvenido a mi repositorio de **Introduction to SQL**, un curso que realicé en
 
 - **🔢 Obtener valores únicos**: Utilicé `DISTINCT` para evitar duplicados y obtener listas de valores únicos en los resultados de las consultas.
 
-- **📊 Funciones de agregación**: Comprendí cómo aplicar funciones como `COUNT`, `SUM`, `AVG`, `MIN`, y `MAX` para realizar cálculos sobre los datos.
-
-- **🔗 Unir tablas**: Utilicé `JOIN` para combinar datos de múltiples tablas, incluyendo `INNER JOIN` y `LEFT JOIN`, entendiendo cómo unir datos relacionados.
-
 - **📑 Creación de vistas**: Aprendí a crear vistas (`CREATE VIEW`), que permiten guardar consultas complejas para su uso futuro.
 
 - **⏳ Ordenar y limitar resultados**: Usé `ORDER BY` para organizar los resultados y `LIMIT` para restringir el número de filas devueltas.
@@ -30,11 +26,8 @@ Bienvenido a mi repositorio de **Introduction to SQL**, un curso que realicé en
 ## ✔️ Habilidades en SQL:
 
 - 📝 **Consultas básicas**: Uso de `SELECT`, `FROM`, y `WHERE` para extraer datos de tablas.
-- 🔍 **Filtrado de datos**: Aplicación de operadores de comparación (`=`, `>`, `<`) y operadores lógicos (`AND`, `OR`, `NOT`) para filtrar resultados.
 - 🆔 **Alias y renombramiento de columnas**: Uso de `AS` para crear alias en las columnas y hacer los resultados más claros.
 - 🎯 **Resultados únicos**: Uso de `DISTINCT` para obtener valores únicos en las consultas.
-- 🧮 **Consultas de agregación**: Funciones como `COUNT`, `SUM`, `AVG`, `MIN`, `MAX` para realizar cálculos sobre los datos.
-- 🔗 **Uniones de tablas (JOINs)**: Aplicación de `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` para combinar datos de múltiples tablas.
 - 🗃️ **Ordenación y límites**: Uso de `ORDER BY` para ordenar los resultados y `LIMIT` para restringir la cantidad de filas devueltas.
 - ⚡ **Consultas eficientes**: Aplicación de buenas prácticas como el uso de índices y filtrado para optimizar consultas.
 - 📊 **Vistas (Views)**: Creación de vistas con `CREATE VIEW` para guardar consultas reutilizables.
